@@ -1,0 +1,516 @@
+
+body
+{
+	margin:0;
+}
+.nav_header
+{	
+	
+	width:100%;
+	height:150px;
+	
+	 background-image:url(image/header.jpg);
+	 
+	/* background-color: #b70004;
+	background-position:cover; */
+}
+
+/*.banner
+{
+	width:100%;
+	height:150px;
+	background-image:url(image/header.jpg);
+} */
+.header_image{
+	height:100px;
+	width:80px;
+	
+}
+.header_text_logo{
+	
+	height:120px;
+	width:140px;
+	
+}
+#index_body
+{
+	
+	margin:0;
+	background-color:#e5e5e5;
+	//background-image:url(image/background_home.jpg);
+	
+}
+.index_h1
+{
+	color:#d21f3c;
+	text-align:center;
+	font-family:dancing script;
+	font-size:40pt;
+}
+.index_image
+{
+	height:400px;
+	width:600px;
+	
+	
+	border:5px solid black;
+}
+
+
+.index_nav a{
+	
+	text-decoration:none;
+	color:white;
+	font-size:14pt;
+	display:inline-block;
+	padding: 20px 15px 10px 10px;
+	//border: 1px solid white;
+	//border-radius:5px;
+	font-family:century gothic;
+	
+	
+	
+}
+.index_nav a:hover
+{
+	color:#f5f5dc;
+	text-shadow: 2px 2px 4px;
+	border-bottom:2px solid white;
+	text-decoration:none;
+}
+.about
+
+{
+	font-family:century gothic;
+	font-size:18pt;
+	text-align:center;
+}
+#active
+{
+	color:#f5f5dc;
+	text-shadow: 2px 2px 4px;
+	border-bottom:2px solid white;
+}
+
+
+#inspiration_box
+{
+	width:80%;
+	height:auto;
+	position:relative;
+	margin:auto; background-color:white;
+	border:2px solid black; margin-top:20px; padding:10px;
+	
+	color:black;
+}
+
+
+/* --------------------------------  login box contents, form contents -------------------------------------   */
+
+#login_body , #registration_body , #request_body
+{
+	margin:0;
+	padding:0;
+	background:url(image/back.png);
+
+	
+	font-family:century gothic;
+	
+	
+}
+
+
+#login_headline, #registration_headline{
+	
+	font-size:34pt;
+	text-align:center;
+	font-family:dancing script;
+	color:#b22222;
+}
+
+.login_box{
+	
+	
+	width:270px;
+	height:auto;
+	background:#302827;
+	color:#fff;
+	border-radius:5px;
+	position:relative;
+	margin: auto;
+	box-sizing:boreder-box;
+	padding:40px 30px;
+	font-family:century gothic;
+	opacity:0.85;
+	
+}
+
+
+.login_h1 ,.registration_h1 , .request_h1
+{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22pt;
+	
+}
+
+.login_box p , .registration_box p , .request_box p{
+	
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	font-size:16pt;
+}
+
+
+.login_box input , .registration_box input , .request_box input{
+	
+	width:100%;
+	margin-bottom:20px;
+}
+
+.login_box input[type="text"], input[type="password"] ,
+.registration_box input[type="text"], input[type="password"], input[type="email"], input[type="number"]
+.request_box input[type="text"],input[type="date"]
+{
+	border:none;
+	border-bottom: 2px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16pt;
+}
+
+
+.login_box input[type="submit"] , .registration_box input[type="submit"] , .request_box input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background: green;
+	color: #fff;
+	font-size:18pt;
+	border-radius: 20px;
+	
+}
+
+.login_box input[type="submit"]:hover ,
+.registration_box input[type="submit"]:hover , 
+.request_box input[type="submit"]:hover
+
+{
+	cursor:pointer;
+	background: #588bae;
+	color: #fff;
+	
+}
+
+
+
+.login_box a, .registration_box a , .request_box a{
+	
+	text-decoration : none;
+	font-size:12pt;
+	line-height:20px;
+	color:green;
+	
+	
+}
+
+.login_box a:hover , .registration_box a:hover,.request_box a:hover {
+	color: #ffc107;
+	
+}
+
+/* --------------------------------  registration box contents -------------------------------------   */
+
+.registration_box{
+	
+	
+	width:400px;
+	height:auto;
+	background:#302827;
+	color:#fff;
+	opacity:.85;
+	position:relative;
+	margin:auto;
+	box-sizing:boreder-box;
+	padding:70px 30px;
+	font-family:century gothic;
+	border-radius:5px;
+	
+}
+.registration_box input[type="radio"]
+
+{
+	
+	height:15px;
+	width: 15px;
+	
+	
+}
+.registration_box select , .request_box select
+
+{
+	width:250px;
+	background:transparent;
+	font-family:century gothic;
+	color:white;
+	font-size:12pt;
+	border:none;
+	border-bottom:2px solid white;
+	margin-bottom:20px;
+	height:40px;
+	
+}
+
+.registration_box select option , .request_box select option
+{
+	background-color:black;
+	color:white;
+	border:none;
+	border-bottom: 2px solid #fff;
+	
+	outline:none;
+	
+	font-size:16pt;
+	
+	
+}
+
+.registration_box select option:hover , .request_box select option:hover
+{
+	
+	color:black;
+	background-color:gray;
+}
+
+.registration_box button
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background: green;
+	color: #fff;
+	font-size:18pt;
+	border-radius: 20px;
+	width:60%;
+	
+}
+.registration_box button:hover
+{
+	cursor:pointer;
+	background: #588bae;
+	color: #fff;
+}
+
+.error 
+{
+	color:red;
+}
+
+.error-show{
+	display:block;
+}
+
+.error-hide{
+	display:none;
+}
+
+/* --------------------------------  request box contents -------------------------------------   */
+
+textarea
+{
+	width:100%;
+	height:300px;
+	font-size:16pt;
+	color:white;
+	background:transparent;
+	font-family:century gothic;
+}
+
+.request_box{
+	
+	
+	width:400px;
+	height:auto;
+	background:#302827;
+	color:#fff;
+	
+	position:relative;
+	margin:auto;
+	box-sizing:boreder-box;
+	padding:70px 30px;
+	font-family:century gothic;
+	
+}
+
+/* -----------------------------Profile portion ----------------------------------- */
+
+.profile_body
+{
+	margin:0;
+	background-image:url(image/profile.jpg);
+}
+
+.profile_header
+{
+	width:100%;
+	height:40%;
+	background-image:url(image/index.jpg);
+	margin:0;
+}
+.profile_nav{
+	
+}
+
+.profile_nav a
+{
+	color:black;
+	display:inline-block;
+	padding:5px 15px;
+	border:2px solid black;
+	border-radius:5px;
+	text-decoration:none;
+	font-family:century gothic;
+	background-color:white;
+	
+	
+}
+
+.profile_nav a:hover
+{
+	color:purple;
+	font-style:bold;
+	border:3px solid purple;
+}
+
+
+.profile_h1
+{
+	color:purple;
+	text-align:center;
+	font-family:dancing script;
+	font-size:40pt;
+}
+
+.profile_box
+{
+	position:relative;
+	margin: auto;
+	height:auto;
+	width:600px;
+	border: 2px solid black;
+	padding: 30px 15px 30px 15px;
+	border-radius:10px;
+	font-family:century gothic;
+	font-size:20pt;
+	color:purple;
+	text-align:center;
+	
+}
+
+.profile_box a{
+	text-decoration:none;
+	display:inline-block;
+	border: 2px solid purple;
+	padding: 3px;
+}
+/* ------------------------------feedback show page---------------------------------------------- */
+
+.feedback
+{
+	text-align:center;
+}
+
+/* -------------------------donors page----------------------------------- */
+
+
+table{
+	font-size:14pt;
+	
+}
+
+
+
+
+
+
+.search_select
+{
+	width:250px;
+}
+
+
+/*----------------------- admin page -------------------------- */
+
+
+
+.admin_body
+{
+	
+	margin: 0px;
+	border: 0px;
+	
+}
+.admin_body header{
+	height:200px;
+	width:auto;
+	background-color:#e6e6fa;
+}
+.admin_body header h3{
+	color:#003366;
+	font-size:20pt;
+	text-align:center;
+	padding-top:5px;
+}
+
+.admin_body header img{
+	height:100px;
+	width:100px;
+	position:relative;
+
+	margin:auto;
+}
+
+
+
+.admin_nav a{
+	color:black;
+	display:inline-block;
+	padding:5px 15px;
+	border-bottom:2px solid black;
+	
+	
+	text-decoration:none;
+	font-family:century gothic;
+	
+}
+
+.admin_nav a:hover
+{
+	color:purple;
+	border-bottom:3px solid purple;
+}
+
+.admin_nav a:active
+{
+	color:purple;
+	border-bottom:3px solid purple;
+}
+
+
+/* ------------------------- footer portion --------------------------------------------- */
+
+footer{
+	
+	font-size: 12pt;
+	width:100%;
+	height:120px;
+	background-color:#464646;
+	color:#c0c0c0;
+	padding:20px;
+	
+}
